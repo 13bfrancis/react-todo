@@ -4,7 +4,7 @@ import Modal from "@material-ui/core/Modal";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
 import Toolbar from "@material-ui/core/Toolbar";
-import CheckIcon from "@material-ui/icons/Check";
+import RightIcon from "@material-ui/icons/KeyboardArrowRight";
 
 export default class extends React.Component {
   state = {
@@ -50,7 +50,7 @@ export default class extends React.Component {
                 this.props.onClose();
               }}
             >
-              <CheckIcon />
+              <RightIcon />
             </Button>
           </Toolbar>
         </div>
