@@ -31,7 +31,7 @@ class Header extends React.Component {
     const { classes, handleOpen } = this.props;
     return (
       <>
-        <AppBar position="relative">
+        <AppBar position="relative" elevation="5">
           <Toolbar>
             <Typography variant="h3" style={{ flexGrow: 1, color: "white" }}>
               To Do's
