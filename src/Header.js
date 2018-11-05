@@ -33,7 +33,7 @@ class Header extends React.Component {
       <>
         <AppBar position="relative">
           <Toolbar>
-            <Typography variant="h3" style={{ flexGrow: 1 }}>
+            <Typography variant="h3" style={{ flexGrow: 1, color: "white" }}>
               To Do's
             </Typography>
             <Button
